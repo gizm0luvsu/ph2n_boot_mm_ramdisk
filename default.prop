@@ -1,0 +1,22 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+persist.sys.usb.config=boot
+ro.adb.secure=1
+ro.zygote=zygote32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu Jan 12 09:57:43 KST 2017
+ro.bootimage.build.date.utc=1484182663
+ro.bootimage.build.fingerprint=MetroPCS/ph2n_mpcs_us/ph2n:6.0.1/MXB48T/170120946dc98:user/release-keys
+
